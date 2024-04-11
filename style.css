@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    /* Establecer la imagen de fondo */
+    background-image: url('img/i1.avif'); /* Ajusta la ruta de la imagen según tu estructura de directorios */
+    background-size: cover; /* Hacer que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Centrar la imagen de fondo */
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.student-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+}
+
+table td {
+    text-align: center;
+}
+
+.options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el botón de eliminar */
+.delete-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #dc3545; /* Color rojo */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Color rojo más oscuro al pasar el mouse */
+}
+
+/* Estilo para el botón de editar */
+.edit-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ecb317; 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
+
+.update-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #28a745; /* Color verde */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}
+
+.add-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #28a745; /* Color verde */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}
